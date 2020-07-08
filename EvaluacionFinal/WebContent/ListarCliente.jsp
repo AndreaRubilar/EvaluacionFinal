@@ -46,7 +46,7 @@
 </table>
 
 <a href="${pageContext.request.contextPath}/AgregarCliente">Agregar Cliente</a><br/>
-<a href="${pageContext.request.contextPath}/CerrarSesion">cerrar </a><br/>
+
 
 </body>
 </html>

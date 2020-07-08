@@ -5,8 +5,9 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body id="body1">
 <h1>BIENVENIDO</h1>
 
 <h2>Este sistema permite:</h2>
@@ -25,6 +26,6 @@
 <br>
 <li><a href="#">ADMINISTRAR EMPLEADOS</a></li>
 </ul>
-
+<form method="POST" action="ListadoCliente">
 </body>
 </html>

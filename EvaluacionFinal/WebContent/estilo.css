@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+body{
+	background-color:#FFC;
+}
+
+table{
+	background:#FF6;
+	padding:10px;
+	border:solid 2px #FF0000;
+}
+
+td{
+	padding:5px 0;
+}
+
+
+body1{
+	background-color:#eeee;
+}
+ 

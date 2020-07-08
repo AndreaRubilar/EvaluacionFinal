@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
@@ -24,7 +25,7 @@
 	<input type="submit" value="Agregar cliente" />
 </form>
 
-<a href="${pageContext.request.contextPath}/listadoCliente">Volver al listado de clientes</a>
+<a href="${pageContext.request.contextPath}/ListadoCliente">Volver al listado de clientes</a>
 
 </body>
 </html>

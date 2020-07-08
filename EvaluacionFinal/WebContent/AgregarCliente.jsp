@@ -24,38 +24,24 @@ td{
 </style>
 </head>
 <body>
- <h1 style="text-align:center">Registro de clientes</h1>
- 
-<form action="" method="get">
+<h1>Crear usuario</h1>
 
-  <table width="25%">
-    <tr>
-      <td width="13%"><label for="nombre">Nombre: </label></td>
-      <td width="87%"><input type="text" name="nombre" id="nombre"></td>
-    </tr>
-    <tr>
-      <td><label for="telefono">Telefono:  </label></td>
-      <td><input type="text" name="telefono" id="telefono"></td>
-    </tr>
-    <tr>
-      <td><label for="direccion">Direccion: </label></td>
-      <td><input type="text" name="direccion" id="direccion"></td>
-    </tr>
-    <tr>
-      <td><label for="correo">Correo: </label></td>
-      <td><input type="text" name="correo" id="correo"></td>
-    </tr>
-   <tr>
-      <td><label for="rubro">Rubro: </label></td>
-      <td><input type="text" name="rubro" id="rubro"></td>
-    </tr>
-  
-      <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Enviar"></td>
-    </tr>
-  </table>
-  <p><br>
-  </p>
+<c:if test="${cumensaje != null}">
+	<c:out value="${cumensaje}" />
+</c:if>
+
+<form action="CrearCliente" method="post">
+	Nombre: <input type="text" name="txtnombre" /><br/>
+	Telefono: <input type="text" name="txttelefono" /> <br/>
+	Correo electrónico: <input type="email" name="txtcorreo" /> <br/>
+	Rubro: <input type="text" name="txtrubro" /> <br/>
+	
+	<a href="ListadoCliente">AGREGAR</a>
+	
 </form>
- 
+
+<a href="${pageContext.request.contextPath}/ListarCliente">Volver al listado de usuarios</a>
+
 </body>
+</html>
 </html>
